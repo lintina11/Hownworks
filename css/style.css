@@ -1,0 +1,818 @@
+/*
+Theme Name:Hownworks
+Theme URI: http://wordpress.org/
+Description: Hownworks
+Version:1.0
+Author:WEAF.
+Author URI:
+Tags:Wordpress,2欄
+*/
+
+/*Main*/
+body{
+	background:#FFFFFF;
+	font-family:微軟正黑體;
+}
+
+/*Header*/
+header{
+	width:100%;
+	margin:0 auto;
+}
+header .container{
+	width:100%;
+	text-align:right;
+}
+
+.login{
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #DB4D6D;
+	background-color:#DB4D6D;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:4px 8px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.login:hover {
+	background-color:#F4A7B9;
+}
+.login:active {
+	position:relative;
+	top:1px;
+}
+
+/*Menus*/
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #ffd0c8; /*選單上的線(邊框)*/
+	border-bottom-style:dashed;
+	margin-bottom:1.5%;
+	padding: 18px 0 18px;
+}
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.main-navigation li {
+	display: inline-block;
+	position: relative;
+	margin: 0 27px;
+}
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+	color: #555;
+}
+.main-navigation a:hover,
+.main-navigation a:focus{
+	color: #f6a8c6;
+}
+.main-navigation ul ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 99999;
+	background: #fdfdfd;
+	text-align: left;
+	width: 200px;
+	padding: 5px 0;
+	display: none;
+}
+.main-navigation ul ul ul {
+	left: 100%;
+	top: 0;
+}
+.main-navigation ul ul a {
+	display: block;
+	padding: 5px 15px;
+}
+.main-navigation ul ul li {
+	display: block;
+	margin: 0;
+}
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+	color: #f6a8c6;
+}
+.main-navigation ul ul :hover > a,
+.main-navigation ul ul .focus > a {
+	color: #f6a8c6;
+}
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a.focus {
+	color: #f6a8c6;
+}
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+	display: block;
+}
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
+	display: block;
+}
+
+/*index*/
+.home_imga.home_imgb.home_imgc.home_imgd.home_imge{
+	cursor: pointer;
+}
+.home_img0{
+	margin-bottom:1%;
+}
+.home_imge{
+	margin-bottom:3%;
+}
+
+/*change*/
+.change{
+	text-align:right;
+	margin-bottom:1%;
+}
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #f4a7b9;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #f4a7b9;
+	box-shadow:inset 0px 39px 0px -24px #f4a7b9;
+	background-color:#f4a7b9;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e16b8c;
+}
+.myButton:hover {
+	background-color:#f596aa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton1 {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e67a73;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:28px;
+	padding:12px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin-top:3%;
+	text-align:left;
+	margin-left:18%;
+}
+.myButton1:hover {
+	background-color:#eb675e;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+.myButton2{
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e67a73;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:28px;
+	padding:12px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+	margin-top:3%;
+	text-align:right;
+	margin-left:23%;
+}
+.myButton2:hover {
+	background-color:#eb675e;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton3{
+	-moz-box-shadow:inset 0px 39px 0px -24px #7DB9DE;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #7DB9DE;
+	box-shadow:inset 0px 39px 0px -24px #7DB9DE;
+	background-color:#7DB9DE;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:12px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #51A8DD;
+	margin-top:3%;
+	text-align:left;
+	margin-left:23%;
+}
+.myButton3:hover {
+	background-color:#51A8DD;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+.myButton4{
+	-moz-box-shadow:inset 0px 39px 0px -24px #7DB9DE;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #7DB9DE;
+	box-shadow:inset 0px 39px 0px -24px #7DB9DE;
+	background-color:#7DB9DE;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:12px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #51A8DD;
+	margin-top:3%;
+	text-align:right;
+	margin-left:31%;
+}
+.myButton4:hover {
+	background-color:#51A8DD;
+}
+.myButton4:active {
+	position:relative;
+	top:1px;
+}
+.chang_img0_1{
+	margin-bottom:3%;
+}
+
+/*archive*/
+.arch{
+    margin: 0 auto;
+	width: 100%;
+    text-align: center;	
+}
+h2{
+	text-align:left;
+	margin-left:2%;
+}
+h3{
+	color:#545454;
+}
+.arch_card{
+	position: relative;
+	background: url('https://i.imgur.com/oyOgdu6.jpg');
+	width: 300px;
+	height: 300px;
+	margin: 0px auto;
+	margin-top:5px;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:15px;
+	/*cursor: pointer; 滑鼠游標*/
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	border-top-right-radius: 10px; /*圓角*/
+	border-top-left-radius: 10px; /*圓角*/
+	border-bottom-right-radius: 10px; /*圓角*/
+	border-bottom-left-radius: 10px; /*圓角*/
+}
+.arch_img{
+	width:200px;
+	height:200px;
+	position: relative;
+	/*cursor: pointer; 滑鼠游標*/
+}
+.arch_p{
+	border-top: 1px solid #ffd0c8; /*選單上的線(邊框)*/
+	border-top-style:dashed;
+	margin-top:2%;
+	margin-left:3%;
+}
+.arch_p p{
+	text-align:left;
+	margin-left:2%;
+}
+
+
+/*exhibition*/
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top-right-radius: 5px; /*圓角*/
+	border-top-left-radius: 5px; /*圓角*/
+}
+.abgne_tab {
+	clear: left;
+	width: 100%;
+	margin: 10px 0;
+}
+ul.tabs {
+	width: 100%;
+	height: 32px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+}
+ul.tabs li {
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -1px;	/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+	border: 1px solid #999;
+	border-left: none;
+	background: #fff;
+	background-image: url( ' https://i.imgur.com/OBarXwm.jpg ' );
+}
+ul.tabs li a {
+	display: block;
+	padding: 0 20px;
+	color: #000;
+	border: 1px solid #fff;
+	text-decoration: none;
+}
+ul.tabs li a:hover {
+	background: #FFFFDF;
+	background-image: url( ' https://i.imgur.com/OBarXwm.jpg ' );
+}
+ul.tabs li.active  {
+	background: #FFFFDF;
+	border-bottom: 1px solid#fff;
+}
+ul.tabs li.active a:hover {
+	background: #fff;
+	background-image: url( ' https://i.imgur.com/OBarXwm.jpg ' );
+}
+div.tab_container {
+	clear: left;
+	width: 100%;
+	border: 1px solid #999;
+	border-top: none;
+	background: #fff;
+	background-image: url( ' https://i.imgur.com/OBarXwm.jpg ' );
+}
+div.tab_container .tab_content {
+	padding: 20px;
+}
+div.tab_container .tab_content h2 {
+	margin: 0 0 20px;
+}
+
+/*展覽資訊方塊*/
+.title h2{
+	text-align:left;  /*包含店家資訊的標題*/
+	color:#64363C;
+} 
+.store_section1{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.show_info_card001{
+	position: relative;
+	background-color:#E0E0FF;
+	border: 1.5px solid #6363FF; /*選單上的線(邊框)*/
+	border-style:dashed;
+	width: 300px;
+	height: 320px;
+	border-top-right-radius: 10px; /*圓角*/
+	border-top-left-radius: 10px; /*圓角*/
+	border-bottom-right-radius: 10px; /*圓角*/
+	border-bottom-left-radius: 10px; /*圓角*/
+	margin: 0px auto;
+	margin-top:5px;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:15px;
+	/*cursor: pointer; 滑鼠游標*/
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
+.show_info_card01{
+	position: relative;
+	background-color:#E0E0FF;
+	border: 1.5px solid #6363FF; /*選單上的線(邊框)*/
+	border-style:dashed;
+	width: 300px;
+	height: 365px;
+	border-top-right-radius: 10px; /*圓角*/
+	border-top-left-radius: 10px; /*圓角*/
+	border-bottom-right-radius: 10px; /*圓角*/
+	border-bottom-left-radius: 10px; /*圓角*/
+	margin: 0px auto;
+	margin-top:5px;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:15px;
+	/*cursor: pointer; 滑鼠游標*/
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.show_name{
+	font-size: 19px;
+	position: relative;
+	text-align: center;
+	top: 3%;
+	/*cursor: pointer; 滑鼠游標*/
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+	
+}
+.show_img{
+	width:300px;
+	height:111px;
+	position: relative;
+	top: 20px;
+	/*cursor: pointer; 滑鼠游標*/
+	margin-bottom:10px;
+}
+.show_info_card02{
+	position: relative;
+	top:2%;
+}
+.show_info_card02_table{
+	margin: 3%;
+	text-align: left;
+}
+.show_info_card02_td01{
+	vertical-align:text-top;
+	line-height: 23px; /*行間距(行高)*/
+}
+
+/*展覽資訊方塊RWD*/
+ @media only screen and (max-width: 320px){
+.store_section1{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.show_info_card01{
+	position: relative;
+	background-color:#E0E0FF;
+	border: 1.5px solid #6363FF; /*選單上的線(邊框)*/
+	border-style:dashed;
+	width: 250px;
+	height: 370px;
+	border-top-right-radius: 10px; /*圓角*/
+	border-top-left-radius: 10px; /*圓角*/
+	border-bottom-right-radius: 10px; /*圓角*/
+	border-bottom-left-radius: 10px; /*圓角*/
+	margin: 0px auto;
+	margin-top:5px;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:15px;
+	/*cursor: pointer; 滑鼠游標*/
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	
+}
+.show_name{
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	top: 3%;
+	/*cursor: pointer; 滑鼠游標*/
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+	
+}
+.show_img{
+	width:250px;
+	height:93px;
+	position: relative;
+	top: 20px;
+	/*cursor: pointer; 滑鼠游標*/
+	margin-bottom:10px;
+}
+.show_info_card02{
+	position: relative;
+	top:2%;
+}
+.show_info_card02_table{
+	margin: 3%;
+	text-align: left;
+}
+.show_info_card02_td01{
+	vertical-align:text-top;
+	line-height: 18px; /*行間距(行高)*/
+	font-size: 15px;
+}
+.show_info_p2{
+	font-size: 15px;
+}
+}
+
+/*store*/
+/*頁籤*/
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top-right-radius: 5px; /*圓角*/
+	border-top-left-radius: 5px; /*圓角*/
+}
+.abgne_tab_shop {
+	clear: left;
+	width: 100%;
+	margin: 10px 0;
+}
+ul.tabs_shop {
+	width: 100%;
+	height: 32px;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+}
+ul.tabs_shop li {
+	float: left;
+	height: 31px;
+	line-height: 31px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: -1px;	/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+	border: 1px solid #999;
+	border-left: none;
+	background: #e1e1e1;
+}
+ul.tabs_shop li a {
+	display: block;
+	padding: 0 20px;
+	color: #000;
+	border: 1px solid #fff;
+	text-decoration: none;
+
+}
+ul.tabs_shop li a:hover {
+	background: #FFFFDF;
+	background-image: url( ' https://i.imgur.com/OBarXwm.jpg ' );
+}
+ul.tabs_shop li.active  {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+}
+ul.tabs_shop li.active a:hover {
+	background: #fff;
+}
+div.tab_container_shop {
+	clear: left;
+	width: 100%;
+	border: 1px solid #999;
+	border-top: none;
+	background: #fff;
+	background-image: url( ' https://i.imgur.com/OBarXwm.jpg ' );
+
+}
+div.tab_container_shop .tab_content_shop {
+	padding: 20px;
+}
+div.tab_container_shop .tab_content_shop h2 {
+	margin: 0 0 20px;
+}
+/*店家資訊方塊*/
+.store_section2 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.store_info_card001{
+	position: relative;
+	background-color:#fafacc;
+	border: 1.5px solid #ff6e6c; /*選單上的線(邊框)*/
+	border-style:dashed;
+	width: 300px;
+	height: 370px;
+	border-top-right-radius: 10px; /*圓角*/
+	border-top-left-radius: 10px; /*圓角*/
+	border-bottom-right-radius: 10px; /*圓角*/
+	border-bottom-left-radius: 10px; /*圓角*/
+	margin: 0px auto;
+	margin-top:5px;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:15px;
+	/*cursor: pointer; 滑鼠游標*/
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
+.store_info_card01{
+	position: relative;
+	background-color:#ffdea9;
+	border: 1.5px solid #ff6e6c; /*選單上的線(邊框)*/
+	border-style:dashed;
+	width: 300px;
+	height: 370px;
+	border-top-right-radius: 10px; /*圓角*/
+	border-top-left-radius: 10px; /*圓角*/
+	border-bottom-right-radius: 10px; /*圓角*/
+	border-bottom-left-radius: 10px; /*圓角*/
+	margin: 0px auto;
+	margin-top:5px;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:15px;
+	/*cursor: pointer; 滑鼠游標*/
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.store_name{
+	font-size: 19px;
+	position: relative;
+	text-align: center;
+	top: 3%;
+	/*cursor: pointer; 滑鼠游標*/
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+	
+}
+.store_img{
+	width:300px;
+	height:111px;
+	position: relative;
+	top: 20px;
+	/*cursor: pointer; 滑鼠游標*/
+	margin-bottom:10px;
+}
+.store_info_card02{
+	position: relative;
+	top:2%;
+}
+.store_info_card02_table{
+	margin: 3%;
+	text-align: left;
+}
+.store_info_card02_td01{
+	vertical-align:text-top;
+	line-height: 23px; /*行間距(行高)*/
+}
+
+/*店家資訊方塊RWD*/
+ @media only screen and (max-width: 320px){
+.store_section2{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.store_info_card01{
+	position: relative;
+	background-color:#ffdea9;
+	border: 1.5px solid #ff6e6c; /*選單上的線(邊框)*/
+	border-style:dashed;
+	width: 250px;
+	height: 370px;
+	border-top-right-radius: 10px; /*圓角*/
+	border-top-left-radius: 10px; /*圓角*/
+	border-bottom-right-radius: 10px; /*圓角*/
+	border-bottom-left-radius: 10px; /*圓角*/
+	margin: 0px auto;
+	margin-top:5px;
+	margin-right:8px;
+	margin-left:8px;
+	margin-bottom:15px;
+	/*cursor: pointer; 滑鼠游標*/
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	
+}
+.store_name{
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	top: 3%;
+	/*cursor: pointer; 滑鼠游標*/
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+	
+}
+.store_img{
+	width:250px;
+	height:93px;
+	position: relative;
+	top: 20px;
+	/*cursor: pointer; 滑鼠游標*/
+	margin-bottom:10px;
+}
+.store_info_card02{
+	position: relative;
+	top:2%;
+}
+.store_info_card02_table{
+	margin: 3%;
+	text-align: left;
+}
+.store_info_card02_td01{
+	vertical-align:text-top;
+	line-height: 18px; /*行間距(行高)*/
+	font-size: 15px;
+}
+.store_info_p2{
+	font-size: 15px;
+}
+}
+ 
+ /*店家地圖*/
+div.map{
+	background-image: url( ' https://i.imgur.com/QlD8dUh.png ');
+	background-size:auto 480px;
+	background-repeat:no-repeat;
+ }
+section.map1{
+	width:640px;
+	height:480px;
+	margin:0px auto;
+ }
+.map2{
+	width:640px;
+	height:480px;
+}
+ 
+/*about*/
+section.about{
+	position: relative;
+    margin: 0 auto;
+    width: 300px;
+	height:auto;
+    text-align: center;
+}
+.aboutus p{
+	text-align:center;
+	line-height:40px;
+}
+.mail{
+	color:#DB4D6D;
+	text-decoration:none;
+	
+}
+.mail:hover{
+	color:#F4A7B9;
+}
+
+/*Footer*/
+.copyright p{
+	text-align:center;
+}
+.footer_img{
+	max-width:100%;
+}
+.footer_img2{
+	width: 30px;
+	height: 30px;
+	margin-bottom:-7px;
+}
